@@ -19,7 +19,7 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 # echo 'src-git opentopd  https://github.com/sirpdboy/sirpdboy-package' >>feeds.conf.default
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
+# git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced 
