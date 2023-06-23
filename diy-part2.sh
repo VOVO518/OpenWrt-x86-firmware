@@ -19,9 +19,9 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 # echo '=========Alert hostname OK!========='
 
 # 取消原主题luci-theme-bootstrap 为默认主题 - 修改 argon 为默认主题 - 删除原默认主题
-rm -rf package/lean/luci-theme-argon  
+# rm -rf package/lean/luci-theme-argon  
 find ./ -name luci-theme-argon | xargs rm -rf;
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package
 # git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 # echo '=========Add argon-mod OK!========='
 
